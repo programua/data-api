@@ -1,11 +1,11 @@
 package main
 
 import (
-	"008_original_api"
+	"github.com/programua/data-api/handler"
 	"net/http"
 )
 
 func main() {
-	http.Handle("/", handler.MakeRouter())
+	http.Handle("/", MakeRouter())
 }
 
